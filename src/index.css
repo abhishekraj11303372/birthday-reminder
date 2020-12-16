@@ -15,10 +15,11 @@ h2 {
 }
 
 h3{
-  text-align: center;   
+  margin-left: 25px;
+  padding-top: 20px;  
 }
 
-button {
+.container button {
   background-color: rgb(226, 43, 74);
   border: none;
   font-size: 16px;
@@ -26,13 +27,9 @@ button {
   cursor: pointer;
   padding: 10px 140px;
   border-radius: 5px;
-}
-
-img {
-  margin-left: 15px;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
+  text-align: center;
+  margin: 0px 30px;
+  margin-top: 20px;
 }
 
 .container { 
@@ -41,9 +38,29 @@ img {
   padding-bottom: 20px;
   height: auto;
   width: 400px;
-  overflow: auto;
-  text-align: center;
   border-radius: 5px;
+}
+
+.person {
+  display: flex;
+}
+
+.person h4 {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.person p {
+  display: block;
+  margin: 0px;
+}
+
+.person img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin: 10px 20px;
 }
 
 code {
