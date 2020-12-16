@@ -3,8 +3,45 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    background: rgb(245, 78, 106);
+    line-height: 1.5;
+    font-size: 0.875rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3{
+  text-align: center;   
+}
+
+button {
+  background-color: rgb(226, 43, 74);
+  border: none;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 10px 140px;
+  border-radius: 5px;
+}
+
+img {
+  margin-left: 15px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.container { 
+  background: white;
+  margin: auto;
+  height: 700px;
+  width: 400px;
+  overflow: auto;
+  text-align: center;
 }
 
 code {
