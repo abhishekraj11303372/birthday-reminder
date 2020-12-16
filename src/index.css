@@ -38,7 +38,8 @@ img {
 .container { 
   background: white;
   margin:  15px auto;
-  height: 700px;
+  padding-bottom: 20px;
+  height: auto;
   width: 400px;
   overflow: auto;
   text-align: center;
